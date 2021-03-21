@@ -1,0 +1,10 @@
+#1
+name = input ('이름을 입력해주십시오:')
+kor = int(input ('국어점수를 입력해주십시오:'))
+math = int(input ('수학점수를 입력하십시오:'))
+eng = int(input ('영어점수를 입력하십시오:'))
+print(name,'님의 국어점수는', kor,'점입니다.')
+print(name,'님의 수학점수는', math,'점입니다.')
+print(name,'님의 영어점수는', eng,'점입니다.')
+print(name,'님의 과목 총합점수는', kor + math + eng,'점입니다.')
+print(name,'님의 과목 평균은', (kor + math + eng)/3,'점입니다.' )
